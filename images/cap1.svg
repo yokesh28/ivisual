@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <text style="cursor: move;" stroke="#000000" transform="matrix(3.1701312065124516,0,0,3.1701312065124516,-641.5297055691481,-366.186346553266) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="180" x="307" stroke-width="0" fill="#ffffff">Design</text>
+  <text style="cursor: move;" stroke="#5AA457" transform="matrix(1.990250587463379,0,0,1.990250587463379,-107.61238805949688,-270.66333635151386) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="279.388851" x="249.699092" stroke-width="0" fill="#000000">Development</text>
+  <text stroke="#000000" transform="matrix(6.360134124755859,0,0,6.360134124755859,-571.6918052434921,-1736.5997043251991) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_3" y="318.037749" x="121.450618" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">&amp;</text>
+ </g>
+</svg>

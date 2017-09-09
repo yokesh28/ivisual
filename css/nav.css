@@ -1,0 +1,132 @@
+.mob{
+	position:relative;
+	z-index:9999;
+}
+.mobile-navbar-header{
+	display:none;
+}
+.mobile-menu {
+	width:240px;
+	height:100%;
+	position:fixed;
+	background:#3D832D;
+	text-align:center;
+	right:-240px;
+	top:0;
+	z-index:999999999999999;
+	-moz-transition:all 500ms ease-in;
+    -webkit-transition:all 500ms ease-in;
+    -o-transition:all 500ms ease-in;
+    transition:all 500ms ease-in;
+	display:none;
+}
+.mobile-menu li{
+	padding-top:15px;
+	border-bottom:1px solid#fff;
+	padding-bottom:15px;
+	list-style:none;
+}
+.mobile-menu a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+.mobile-menu li:last-child{
+	border-bottom:none;
+}
+.mobile-menu li:hover {
+	background:#eee;	
+}
+.menu-icon{
+	  background: #fff;
+    color: #3D832D;
+    font-size: 17px;
+    right: 8px;
+    top: 13px;
+    position: fixed;
+    transition: all .6s ease-in-out;
+    z-index: 999999;
+    cursor: pointer;
+    -moz-transition: all 500ms ease-in;
+    -webkit-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+    display: none;
+    height: 45px;
+    padding-top: 11px;
+    padding-left: 27px;
+    width: 95px;
+    border-radius: 50px;
+   
+}
+.colorCombo{
+	background: #3D832D;
+    color: #fff;
+}
+.wr{
+	display:none;
+}
+.gr{
+	display:block;
+}
+section{
+   
+    -moz-transition:all 500ms ease-in;
+    -webkit-transition:all 500ms ease-in;
+    -o-transition:all 500ms ease-in;
+    transition:all 500ms ease-in;
+
+}
+input[type=checkbox], input[type=radio]{
+	display:none;
+}
+@media(max-width:769px){
+	.mainn{
+		display:none;
+	}
+	.navbar-header button{
+		display:none;
+	}
+	.mob{
+		display:block!important;
+	}
+	.menu-icon{
+	
+	display:block;
+   
+}
+.mobile-menu{
+	display:block;
+	
+}
+#menuToggle{
+	display:none;
+}
+#menuToggle:checked ~ .mobile-menu{
+	position:fixed;
+	right:0;
+}
+#menuToggle:checked ~ .menu-icon{
+	right:240px;
+}
+#menuToggle:checked ~ section{
+	margin-left:-240px;
+}
+.navbar-brand{
+	display:none;
+}
+#menuToggle:checked ~ d{
+	margin-left:-240px;
+}
+.mobile-navbar-header{
+        position: fixed;
+    display: block;
+    z-index: 99;
+    left: 10px;
+    top: 15px;
+	}
+.navbar{
+	background:#fff;
+	z-index:9;
+}
+}

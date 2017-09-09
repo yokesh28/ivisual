@@ -1,0 +1,256 @@
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+Theme Color
+
+-------------------------------------------------------------------------------------------------------------------------------*/
+
+.dh-btn-def,
+.dh-btn-def:visited {
+    color: #fff;
+    background-color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+.dh-btn-def:hover,
+.dh-btn-def:focus {
+    color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+.dh-btn-border,
+.dh-btn-border:visited {
+    color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+.dh-btn-border:hover,
+.dh-btn-border:focus {
+    color: #fff;
+    border: 2px solid #5bbc2e;
+    background-color: #5bbc2e;
+}
+
+.dh-btn-gal:hover,
+.dh-btn-gal:focus {
+    color: #5bbc2e;
+}
+
+.gallery .content button.is-checked {
+    color: #5bbc2e;
+}
+
+button.dh-btn-md,
+button.dh-btn-md:visited {
+    color: #fff;
+    background-color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+button.dh-btn-md:hover,
+button.dh-btn-md:focus {
+    color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+button.tablink.dh-btn-small,
+button.tablink.dh-btn-small:visited {
+    color: #fff;
+    background-color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+button.tablink.dh-btn-small:hover,
+button.tablink.dh-btn-small:focus {
+    color: #5bbc2e;
+    border: 2px solid #5bbc2e;
+}
+
+.loader {
+    color: #5bbc2e;
+}
+
+.scrollToTop {
+    color: #fff;
+    background: #5bbc2e;
+}
+
+.scrollToTop:hover,
+.scrollToTop:focus {
+    background: #5bbc2e;
+    color: #202020;
+}
+
+#nav-button:hover {
+    color: #fff;
+    background: #5bbc2e;
+}
+
+#nav-button.width:hover {
+    color: #fff;
+}
+
+#nav-list a {
+    color: #fff;
+}
+
+#nav-list a:hover {
+    color: #5bbc2e
+}
+
+#content {
+    background: #efefef;
+}
+
+#content header {
+    background: #44769a;
+}
+
+#content header h1 {
+    color: #fff;
+}
+
+#content section {
+    background: #fff;
+}
+
+header .container a {
+    color: white;
+}
+
+header .dropdown .dropbtn {
+    color: white;
+}
+
+header .dropdown-content a {
+    color: #fff;
+}
+
+button.tab-button {
+    color: #5bbc2e;
+    padding-left: 20px;
+}
+
+.tabs button.active:after {
+    border-color: rgba(88, 34, 180, 0);
+    border-left-color: #5bbc2e;
+}
+
+.tabs button.active {
+    padding-left: 20px;
+    color: #fff;
+    background-color: #5bbc2e;
+    -webkit-border-image: -webkit-linear-gradient( left, #5bbc2e, #5bbc2e) 100% 1;
+}
+
+.tab-content h5 {
+    color: #5bbc2e;
+}
+
+div.icon {
+    background-color: #5bbc2e;
+}
+
+.testimonials-content h6 {
+    color: #5bbc2e;
+}
+
+.indicators li {
+    border: 1px solid #cfcfcf;
+}
+
+.indicators li.active {
+    border: 1px solid #5bbc2e;
+    background-color: #5bbc2e;
+}
+
+.testimonials-content p i {
+    color: #5bbc2e;
+}
+
+.content-steps .tab-content h4 {
+    color: #5bbc2e;
+}
+
+.video-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video .container h2 {
+    color: #fff;
+}
+
+.video .section-title h2:after {
+    background: #fff;
+}
+
+.priceboxes .box {
+    border-top: 3px solid #5bbc2e;
+}
+
+.priceboxes .box:before,
+.priceboxes .box:after {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bbc2e), to(transparent));
+    background-image: -webkit-linear-gradient(#5bbc2e, transparent);
+    background-image: -moz-linear-gradient(#5bbc2e, transparent);
+    background-image: -o-linear-gradient(#5bbc2e, transparent);
+    background-image: linear-gradient(#5bbc2e, transparent);
+}
+
+.priceboxes .title h5 {
+    background-color: #f9f9f9;
+}
+
+.price .start {
+    color: #5bbc2e;
+}
+
+.price h2 {
+    color: #5bbc2e;
+}
+
+.features ul {
+    background-color: #f9f9f9;
+}
+
+.priceboxes .button {
+    background-color: #f9f9f9;
+}
+
+.priceboxes .box:hover .price {
+    background-color: #5bbc2e;
+    color: #fff;
+}
+
+.priceboxes .box:hover .price h2,
+.priceboxes .box:hover .price span {
+    color: #fff;
+}
+
+.social-media ul li i {
+    color: #d9d7d7;
+}
+
+.social-media ul li a:hover i {
+    color: #5bbc2e;
+}
+
+.contact-information i {
+    color: #5bbc2e;
+}
+
+.footer-bottom p {
+    color: #ccc;
+}
+
+@media only screen and (max-width: 480px) {
+    .cta .button .dh-btn-border,
+    .cta .button .dh-btn-border:visited {
+        background-color: #5bbc2e;
+        color: #fff;
+    }
+    .cta .button .dh-btn-border:hover,
+    .cta .button .dh-btn-border:focus {
+        background-color: transparent;
+        color: #5bbc2e;
+    }
+}

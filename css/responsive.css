@@ -1,0 +1,401 @@
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+This is main responsive CSS file that contains custom style rules used in this template
+---------------------------------------------------------------------------------------------------------------------------------
+Template Name: "beCreative"
+Version: 1.0 Initial Release
+Build Date: 05/23/2017
+Author: DesignHouse
+Website: http://becreative.designhouse.rs
+Copyright: (C) 2017
+---------------------------------------------------------------------------------------------------------------------------------*/
+
+	.owl-nav
+	{
+		display:none;
+	}
+	.mob_logo
+	{
+		display:none;
+	}
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .person-thumbnail {
+        height: 293.33px;
+    }
+    .carousel-indicators {
+        left: 360px;
+        bottom: -60px;
+    }
+    .features .feature-item h6 {
+        min-height: 40px;
+    }
+    .contact-information i {
+        padding-right: 10px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .person-thumbnail {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto 20px auto;
+    }
+    .carousel-indicators {
+        left: 35px;
+    }
+    .form {
+        margin-top: 60px;
+    }
+    .contact-information {
+        padding-top: 20px;
+    }
+    .contact-information i {
+        padding-right: 20px;
+    }
+    .img-team {
+        height: 345px;
+    }
+    .section {
+        padding: 30px 0 30px 0;
+    }
+    .footer {
+        padding: 30px 0 0px 0;
+    }
+    div.icon {
+        margin: 35px auto 35px auto;
+    }
+    .content {
+        padding-top: 0px;
+    }
+    .button.text-right {
+        text-align: center;
+    }
+    .cta-banner-content {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cta-banner-content img {
+        margin: 0 auto 20px auto;
+    }
+    .features .feature-item h6 {
+        min-height: auto;
+    }
+    #about .image-center img {
+        margin-top: 60px;
+    }
+    #about .content {
+        text-align: center;
+    }
+    .dh-hero-slider .dh-full-width h1 {
+        font-size: 3rem;
+    }
+    .dh-hero-slider .dh-full-width,
+    .dh-hero-slider .dh-half-width {
+        width: 80%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+	/*Uba Edited start*/
+	.logo--header svg
+	{
+		display:none;
+	}
+	.mob_logo
+	{
+		display:block;
+		margin-top:20px;
+	}
+	.owl-nav
+	{
+		display:block;
+	}
+	.video  {
+		display:none;
+	}
+	#services .tabs h3{
+		padding-left:15px;
+	}
+	.design-sec {
+		border-bottom:1px solid #f2f2f2;
+		padding-bottom:80px;
+	}
+	.logo--header {
+    width: 180px!important;
+	}
+	/*Uba Edited end*/
+    .carousel-indicators {
+        left: 40px;
+    }
+    .footer .form,
+    .footer .contact {
+        padding: 0 20px;
+    }
+    .form {
+        margin-bottom: 30px;
+    }
+    .footer-bottom {
+        padding: 0 20px;
+    }
+    .img-team {
+        height: 43vw;
+    }
+    .footer-bottom .copyright,
+    .footer-bottom .designed {
+        display: block;
+        width: 100%;
+        line-height: 40px;
+    }
+    .footer-bottom .copyright {
+        text-align: center;
+        float: none;
+        padding-bottom: 10px;
+    }
+    .footer-bottom .designed {
+        text-align: center;
+    }
+    .video {
+        height: auto;
+        width: 100%;
+    margin-top: 40px;
+    }
+    .video video {
+        height: auto;
+        width: auto;
+    }
+    .video button {
+        height: 800px;
+        top: -360px;
+    }
+    .section-title h2 {
+        font-size: 18px;
+        line-height: 50px;
+        width: 80%;
+    }
+    .section-title h2 .big {
+        font-size: 36px;
+    }
+    .tab-content {
+        padding-top: 30px;
+    }
+    .dh-hero-slider .dh-full-width h1 {
+        letter-spacing: normal;
+    }
+    .dh-full-width {
+        padding: 10px 20px;
+    }
+    .dh-hero-slider .dh-full-width,
+    .dh-hero-slider .dh-half-width {
+        width: 100%;
+    }
+    .dh-hero-slider .dh-full-width:after,
+    .dh-hero-slider .dh-half-width:after {
+        border: none;
+    }
+    .section-title h2:after,
+    .video .section-title h2:after {
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .contact-information {
+        width: 100% !important;
+        float: none !important;
+    }
+    .gallery .dh-btn-gal {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .dh-btn-gal,
+    .dh-btn-gal:visited {
+        border-left: none;
+    }
+    .image-center img {
+        height: auto;
+        width: auto;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .features .feature-item h6 {
+        min-height: 40px;
+    }
+    .button.inline {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .button.inline a {
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        width: 80%;
+    }
+    .section-title p {
+        padding: 0px;
+    }
+    .dh-hero {
+        height: 90vh;
+    }
+    .dh-hero-slider {
+        height: 90vh;
+    }
+    .cta .button .dh-btn-border,
+    .cta .button .dh-btn-border:visited {
+        background-color: #5822b4;
+        color: #fff;
+    }
+    .cta .button .dh-btn-border:hover,
+    .cta .button .dh-btn-border:focus {
+        background-color: transparent;
+        color: #5822b4;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    .team .text-center {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .img-team {
+        height: 80vw;
+    }
+    .process .feature-item,
+    .features .feature-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .grid-item {
+        width: 100%;
+    }
+    .cta.img-bg:after {
+        content: '';
+        opacity: 0.5;
+    }
+    .img-bg {
+        min-height: 900px;
+    }
+}
+
+
+/* Slider Additional */
+
+@media only screen and (min-width: 768px) {
+    .dh-hero-slider .dh-half-width {
+        opacity: 0;
+        -webkit-transform: translateX(40px);
+        -moz-transform: translateX(40px);
+        -ms-transform: translateX(40px);
+        -o-transform: translateX(40px);
+        transform: translateX(40px);
+    }
+    .dh-hero-slider .move-left .dh-half-width {
+        -webkit-transform: translateX(-40px);
+        -moz-transform: translateX(-40px);
+        -ms-transform: translateX(-40px);
+        -o-transform: translateX(-40px);
+        transform: translateX(-40px);
+    }
+    .dh-hero-slider .selected .dh-half-width {
+        /* this is the visible slide */
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .dh-hero-slider .is-moving .dh-half-width {
+        /* this is the slide moving outside the viewport 
+    wait for the end of the transition on the <li> parent before set opacity to 0 and translate to 40px/-40px */
+        -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
+        -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
+        transition: opacity 0s 0.5s, transform 0s 0.5s;
+    }
+    .dh-hero-slider li.selected.from-left .dh-half-width:nth-of-type(2),
+    .dh-hero-slider li.selected.from-right .dh-half-width:first-of-type {
+        /* this is the selected slide - different animation if it's entering from left or right */
+        -webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.5s 0.2s;
+        -moz-transition: opacity 0.4s 0.2s, -moz-transform 0.5s 0.2s;
+        transition: opacity 0.4s 0.2s, transform 0.5s 0.2s;
+    }
+    .dh-hero-slider li.selected.from-left .dh-half-width:first-of-type,
+    .dh-hero-slider li.selected.from-right .dh-half-width:nth-of-type(2) {
+        /* this is the selected slide - different animation if it's entering from left or right */
+        -webkit-transition: opacity 0.4s 0.4s, -webkit-transform 0.5s 0.4s;
+        -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s;
+        transition: opacity 0.4s 0.4s, transform 0.5s 0.4s;
+    }
+    .dh-hero-slider .dh-full-width h1,
+    .dh-hero-slider .dh-full-width p,
+    .dh-hero-slider .dh-full-width .dh-btn {
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+        -moz-transform: translateX(100px);
+        -ms-transform: translateX(100px);
+        -o-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+    .dh-hero-slider .move-left .dh-full-width h1,
+    .dh-hero-slider .move-left .dh-full-width p,
+    .dh-hero-slider .move-left .dh-full-width .dh-btn {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+        -moz-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+    .dh-hero-slider .selected .dh-full-width h1,
+    .dh-hero-slider .selected .dh-full-width p,
+    .dh-hero-slider .selected .dh-full-width .dh-btn {
+        /* this is the visible slide */
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .dh-hero-slider li.is-moving .dh-full-width h1,
+    .dh-hero-slider li.is-moving .dh-full-width p,
+    .dh-hero-slider li.is-moving .dh-full-width .dh-btn {
+        /* this is the slide moving outside the viewport 
+    wait for the end of the transition on the li parent before set opacity to 0 and translate to 100px/-100px */
+        -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
+        -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
+        transition: opacity 0s 0.5s, transform 0s 0.5s;
+    }
+    .dh-hero-slider li.selected h1 {
+        -webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.5s 0.2s;
+        -moz-transition: opacity 0.4s 0.2s, -moz-transform 0.5s 0.2s;
+        transition: opacity 0.4s 0.2s, transform 0.5s 0.2s;
+    }
+    .dh-hero-slider li.selected p {
+        -webkit-transition: opacity 0.4s 0.3s, -webkit-transform 0.5s 0.3s;
+        -moz-transition: opacity 0.4s 0.3s, -moz-transform 0.5s 0.3s;
+        transition: opacity 0.4s 0.3s, transform 0.5s 0.3s;
+    }
+    .dh-hero-slider li.selected .dh-btn {
+        -webkit-transition: opacity 0.4s 0.4s, -webkit-transform 0.5s 0.4s, background-color 0.2s 0s;
+        -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s, background-color 0.2s 0s;
+        transition: opacity 0.4s 0.4s, transform 0.5s 0.4s, background-color 0.2s 0s;
+    }
+}

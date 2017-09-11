@@ -388,7 +388,7 @@ body.page-transition .logo__text {
     fill: #6dcff5
 }
 body.page-transition .top-nav__link {
-    color: #fff;
+    color: #000;
     -webkit-transition: color .3s linear .3s;
     -moz-transition: color .3s linear .3s;
     -ms-transition: color .3s linear .3s;
